@@ -1,29 +1,27 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class Groups {
 
-    public static void testableMethod(int arraySize) {
-
-        //Set up a list
-        ArrayList<Integer> aug = new ArrayList<Integer>();
-        for (int i = 0; i < arraySize; i++){
-            aug.add(i);
-        }
+    public static ArrayList testableMethod(ArrayList array) {
 
         // Set how many groups
         int numberOfGroups = 3;
 
         // Divide the number of people by groups
-        int membersPerGroup = aug.size() / numberOfGroups;
+        int membersPerGroup = array.size() / numberOfGroups;
+
+        //Creates a place to store
+        ArrayList<String> groups = new ArrayList<>();
 
         // Create equal groups
-        for (int start = 0; start < aug.size(); start += membersPerGroup) {
-            int end = Math.min(start + membersPerGroup, aug.size());
-            List<Integer> group = aug.subList(start, end);
+        for (int start = 0; start < array.size(); start += membersPerGroup) {
+            int end = Math.min(start + membersPerGroup, array.size());
+            List<Integer> group = array.subList(start, end);
             // Show the groups
-//            System.out.println(group);
-        }
 
+        }
+        return groups;
     }
 }
 

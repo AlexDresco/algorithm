@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Reverse {
-
+public class Shuffle
+{
     public static ArrayList testableMethod(ArrayList array) {
-        Collections.reverse(array);
+        Collections.shuffle(array);
         return array;
     }
 }
