@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed53a74-99f5-404c-8b9a-45cfe859973d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Last.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/Groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyOwnShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyOwnShuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PairsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShuffleAndSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Timing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Groups.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Groups.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/MyOwnShuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/MyOwnShuffle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Pairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Pairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/ShuffleAndSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Timing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Timing.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +15,7 @@
     <session id="-136109917">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.9" value="1" />
@@ -52,12 +35,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="6787" />
+          <entry key="java" value="6880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6787" />
+          <entry key="JAVA" value="6880" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -69,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/Timing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -205,10 +188,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="246" />
     <option name="y" value="23" />
-    <option name="width" value="1389" />
+    <option name="width" value="1194" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -238,7 +221,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541682165703" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541694602968" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -343,7 +326,7 @@
       <updated>1541437069088</updated>
       <workItem from="1541437070506" duration="443000" />
       <workItem from="1541437542995" duration="38117000" />
-      <workItem from="1541679785403" duration="408000" />
+      <workItem from="1541679785403" duration="3986000" />
     </task>
     <servers />
   </component>
@@ -380,13 +363,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38968000" />
+    <option name="totallyTimeSpent" value="42546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1389" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="246" y="23" width="1194" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17817372" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,7 +385,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Analysis" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32768363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -529,7 +511,7 @@
     <entry file="file://$PROJECT_DIR$/Timing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>

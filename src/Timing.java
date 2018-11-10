@@ -2,16 +2,24 @@ import java.util.*;
 
 public class Timing {
     public static void main(String[] args){
+
         ArrayList<Integer> range = generateRange();
+
+        //Warmup
+        for (int i = 0; i < 10 ; i++) {
+            ArrayList warmup_array = generateArray(50000);
+            Collections.shuffle(warmup_array);
+            Pairs.testableMethod(warmup_array);
+        }
 
         for (int arraySize : range) {
             ArrayList array = generateArray(arraySize);
             Collections.shuffle(array);
             long startTime = System.nanoTime();
-            Last.testableMethod(array);
+            Pairs.testableMethod(array);
             long endTime = System.nanoTime();
             long duration = (endTime - startTime);
-            System.out.println((double) duration/1000000);
+            System.out.println(duration);
         }
     }
 
