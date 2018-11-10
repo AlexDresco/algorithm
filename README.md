@@ -37,5 +37,4 @@ Given a list of students names, create all possible pairings.
 * Know your data structures: some common operations were expensive (remove in the middle of an array)
 * Change the structure of the algorithm: Notice parts of your algorithm that repeat the same operations on the same elements. Is there a way you can only do these operations once?
 
-## Things to do/check with coach: 
-- The timing function takes a lot more time to run in Groups.java and Reverse.java which is confusing. I changed all the functions so they return a result (originally void) and I played with different sizes of arrays. I'm not sure what's going on there. 
+
